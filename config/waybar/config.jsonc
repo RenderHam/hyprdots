@@ -1,0 +1,44 @@
+{
+    "include": [
+        "~/.config/waybar/modules/system.jsonc",
+        "~/.config/waybar/modules/custom/custom.jsonc",
+        "~/.config/waybar/modules/group.jsonc"
+    ],
+    "layer": "top",
+    "position": "top",
+    "mod": "dock",
+    "margin-left": 10,
+    "margin-right": 10,
+    "margin-top": 7,
+    "margin-bottom": 0,
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "reload_style_on_change": true,
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "custom/ldiv_2",
+        "clock",
+        "custom/ldiv_1",
+        "custom/ldiv_0",
+        "custom/user",
+        "custom/rdiv_0",
+        "custom/rdiv_1",
+        "custom/rdiv_2"
+    ],
+    "modules-right": [
+        "custom/ldiv_2",
+        "group/vol_slider",
+        "custom/ldiv_1",
+        "custom/ldiv_2",
+        "group/light_slider",
+        "custom/ldiv_1",
+        "custom/ldiv_0",
+        "group/power",
+        "network",
+        "custom/rdiv_0"
+    ]
+    // sourced from modules based on config.ctl //
+}

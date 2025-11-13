@@ -1,0 +1,1 @@
+/home/kuuki/.git/dots/.config/yazi/plugins/rotate-image.yazi/main.lua

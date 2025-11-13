@@ -1,0 +1,163 @@
+{
+    "custom/user": {
+        "format": "󰣇",
+        "rotate": 0,
+        "on-click": "~/.config/rofi/launcher/launcher.sh",
+        "on-click-right": "~/.config/rofi/power/power.sh",
+        "on-click-middle": "~/.config/rofi/drawer/drawer.sh"
+    },
+    "custom/ldiv_0": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/rdiv_0": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/ldiv_1": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/rdiv_1": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/ldiv_2": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/rdiv_2": {
+        "format": "",
+        "tooltip": false
+    }
+    // "custom/menu": {
+    //     "format": "󰅃",
+    //     "rotate": 90
+    // },
+    // "custom/notification": {
+    //     "tooltip": false,
+    //     "format": "{icon}",
+    //     "format-icons": {
+    //         "notification": "󰅸",
+    //         "none": "󰂜",
+    //         "dnd-notification": "󰅸",
+    //         "dnd-none": "󱏨",
+    //         "inhibited-notification": "󰅸",
+    //         "inhibited-none": "󰂜",
+    //         "dnd-inhibited-notification": "󰅸",
+    //         "dnd-inhibited-none": "󱏨"
+    //     }
+    // },
+    // "custom/power": {
+    //     "format": "@{}",
+    //     "rotate": 0,
+    //     "on-click": "ags -t ControlPanel",
+    //     "on-click-right": "pkill ags",
+    //     "tooltip": true
+    // },
+    // "custom/script": {
+    //     "on-click": "~/.config/waybar/volume.sh toggle",
+    //     "format": ""
+    // }
+    // "custom/cliphist": {
+    //     "format": "{}",
+    //     "rotate": 0,
+    //     "exec": "echo ; echo 󰅇 clipboard history",
+    //     "on-click": "sleep 0.1 && cliphist.sh c",
+    //     "on-click-right": "sleep 0.1 && cliphist.sh d",
+    //     "on-click-middle": "sleep 0.1 && cliphist.sh w",
+    //     "interval": 86400, // once every day
+    //     "tooltip": true
+    // },
+    // "custom/wbar": {
+    //     "format": "𐌏{}", //    //
+    //     "rotate": 0,
+    //     "exec": "echo ; echo show app menu",
+    //     "on-click": "wofi --show drun",
+    //     "on-click-right": "wbarconfgen.sh p",
+    //     "on-click-middle": "sleep 0.1 && quickapps.sh kitty firefox spotify code dolphin",
+    //     "interval": 86400,
+    //     "tooltip": true
+    // },
+    // "custom/theme": {
+    //     "format": "{}",
+    //     "rotate": 0,
+    //     "exec": "echo ; echo 󰟡 pick color",
+    //     "on-click": "hyprpicker",
+    //     "on-click-right": "themeswitch.sh -p",
+    //     "on-click-middle": "sleep 0.1 && themeselect.sh",
+    //     "interval": 86400, // once every day
+    //     "tooltip": true
+    // },
+    // "custom/wallchange": {
+    //     "format": "{}",
+    //     "rotate": 0,
+    //     "exec": "echo ; echo 󰆊 switch wallpaper",
+    //     "on-click": "swww img --transition-type grow --transition-pos 0.071,0.988 --transition-step 255 --transition-fps 60 /home/anik/Downloads/skyway.jpg",
+    //     "on-click-right": "swww img --transition-type grow --transition-pos 0.071,0.988 --transition-step 255 --transition-fps 60 /home/anik/Downloads/cloud.png",
+    //     "on-click-middle": "swww img --transition-type grow --transition-pos 0.071,0.988 --transition-step 255 --transition-fps 60 /home/anik/Downloads/gradient.jpg",
+    //     "on-scroll-up": "swww img --transition-type grow --transition-pos 0.071,0.988 --transition-step 255 --transition-fps 60 /home/anik/Downloads/torvalds.png",
+    //     "on-scroll-down": "swww img --transition-type grow --transition-pos 0.071,0.988 --transition-step 255 --transition-fps 60 /home/anik/Downloads/night.png",
+    //     "interval": 86400, // once every day
+    //     "tooltip": true
+    // },
+    // "custom/mouse": {
+    //     "format": "",
+    //     "format-alt": "",
+    //     "on-click": "m8mouse -dpi 1 -led 2 -speed 4",
+    //     "on-click-right": "m8mouse -dpi 1 -led 4 -speed 4",
+    //     "on-click-middle": "m8mouse -dpi 1 -led 7 -speed 4",
+    //     "tooltip": true
+    // },
+    // "custom/spotify": {
+    //     "exec": "mediaplayer.py --player spotify",
+    //     "format": " {}",
+    //     "rotate": 0,
+    //     "return-type": "json",
+    //     "on-click": "playerctl play-pause --player spotify",
+    //     "on-click-right": "playerctl next --player spotify",
+    //     "on-click-middle": "playerctl previous --player spotify",
+    //     "on-scroll-up": "volumecontrol.sh -p spotify i",
+    //     "on-scroll-down": "volumecontrol.sh -p spotify d",
+    //     "max-length": 25,
+    //     "escape": true,
+    //     "tooltip": true
+    // },
+    // "custom/notifications": {
+    //     "tooltip": false,
+    //     "format": "{icon} {}",
+    //     "rotate": 0,
+    //     "format-icons": {
+    //         "email-notification": "<span foreground='white'><sup></sup></span>",
+    //         "chat-notification": "󱋊<span foreground='white'><sup></sup></span>",
+    //         "warning-notification": "󱨪<span foreground='yellow'><sup></sup></span>",
+    //         "error-notification": "󱨪<span foreground='red'><sup></sup></span>",
+    //         "network-notification": "󱂇<span foreground='white'><sup></sup></span>",
+    //         "battery-notification": "󰁺<span foreground='white'><sup></sup></span>",
+    //         "update-notification": "󰚰<span foreground='white'><sup></sup></span>",
+    //         "music-notification": "󰝚<span foreground='white'><sup></sup></span>",
+    //         "volume-notification": "󰕿<span foreground='white'><sup></sup></span>",
+    //         "notification": "<span foreground='white'><sup></sup></span>",
+    //         "none": ""
+    //     },
+    //     "return-type": "json",
+    //     "exec-if": "which dunstctl",
+    //     "exec": "notifications.py",
+    //     "on-click": "sleep 0.1 && dunstctl history-pop",
+    //     "on-click-middle": "dunstctl history-clear",
+    //     "on-click-right": "dunstctl close-all",
+    //     "interval": 1,
+    //     "tooltip": true,
+    //     "escape": true
+    // },
+    // "custom/keybindhint": {
+    //     "format": " ",
+    //     "rotate": 0,
+    //     "on-click": "keybinds_hint.sh"
+    // },
+    // "custom/expand": {
+    //     "on-click": "~/.config/hypr/scripts/expand_toolbar",
+    //     "format": "{}",
+    //     "exec": "~/.config/hypr/scripts/tools/expand arrow-icon"
+    // },
+}

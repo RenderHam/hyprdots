@@ -1,0 +1,55 @@
+{
+    // "group/expand": {
+    //     "orientation": "horizontal",
+    //     "drawer": {
+    //         "transition-duration": 400,
+    //         "children-class": "not-power",
+    //         "transition-to-left": true
+    //         //  "click-to-reveal": true
+    //     },
+    //     "modules": [
+    //         "tray"
+    //     ]
+    // },
+    "group/power": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 400,
+            "children-class": "not-power",
+            "click-to-reveal": false
+        },
+        "modules": [
+            "battery"
+        ]
+    },
+    "group/light_slider": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 400,
+            "children-class": "not-power",
+            "transition-to-left": true,
+            "click-to-reveal": true
+        },
+        "modules": [
+            "backlight",
+            "custom/rdiv_2",
+            "backlight/slider",
+            "custom/ldiv_2"
+        ]
+    },
+    "group/vol_slider": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 400,
+            "children-class": "not-power",
+            "transition-to-left": true,
+            "click-to-reveal": true
+        },
+        "modules": [
+            "pulseaudio",
+            "custom/rdiv_2",
+            "pulseaudio/slider",
+            "custom/ldiv_2"
+        ]
+    }
+}
