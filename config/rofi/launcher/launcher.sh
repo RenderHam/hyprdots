@@ -1,0 +1,1 @@
+/home/kuuki/.git/dots/.config/rofi/launcher/launcher.sh

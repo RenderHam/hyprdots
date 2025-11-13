@@ -1,0 +1,1 @@
+/home/kuuki/.git/dots/.config/rofi/volume/vol.sh

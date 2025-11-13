@@ -1,7 +1,7 @@
 {
     "include": [
         "~/.config/waybar/modules/system.jsonc",
-        "~/.config/waybar/modules/custom/custom.jsonc",
+        "~/.config/waybar/modules/custom.jsonc",
         "~/.config/waybar/modules/group.jsonc"
     ],
     "layer": "top",
